@@ -1,0 +1,1 @@
+cmd_/home/yang/testDiverPrograming/hello.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/yang/testDiverPrograming/hello.ko /home/yang/testDiverPrograming/hello.o /home/yang/testDiverPrograming/hello.mod.o ;  true
