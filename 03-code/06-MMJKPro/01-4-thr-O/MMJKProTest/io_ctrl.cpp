@@ -73,7 +73,7 @@ int IOCtrl::dataIsIn(int port, int bit){
         else
             return 1;
         SLEEP(0.5);
-    }while(!kbhit());
+    }while(1);
 }
 
 
